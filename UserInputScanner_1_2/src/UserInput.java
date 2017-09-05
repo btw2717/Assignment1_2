@@ -28,8 +28,7 @@ public class UserInput
     public static void main(String[] args)
     {   //Open brace beginning the block of code for the method 'main'
         /**
-         *Making a new object of the Scanner class,
-         *stored in the variable 'keyboard'.  Calling the constructor of the Scanner class,
+         *Making a new object of the Scanner class named 'keyboard'.  Calling the constructor of the Scanner class,
          * with the parameter System.in (I also don't actually understand what that means).
          * I think this is a constructor, right after new.....but I'm not sure.
          */
@@ -37,7 +36,8 @@ public class UserInput
 
         System.out.println("Enter your username:");  //Print the argument string
         String userName = keyboard.next();  //Declare the string variable named userName and set its value as
-        //keyboard.next() which is the created object of the Scanner class and it calls the method next???
+                                            //keyboard.next() which is the created object of the Scanner class and
+                                            //it calls the method 'next'?
 
         System.out.println();   //print an empty line for aesthetic purposes
         System.out.println("Enter your password:");
