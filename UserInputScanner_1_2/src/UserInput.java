@@ -24,6 +24,7 @@ public class UserInput
      *
      * @param args This is the parameter of the main method, classified as a variable.
      *             I don't really understand what that means.
+     *             'The command line arguments passed to the application' seems to be popular
      */
     public static void main(String[] args)
     {   //Open brace beginning the block of code for the method 'main'
